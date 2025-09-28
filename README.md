@@ -216,6 +216,7 @@ Before running the above commands to pull the repo and install everything:
 1. Run the commands as root to open up the necessary ports:
    - ufw enable
    - ufw allow 80 && ufw allow 443
+   - ufw limit 22/tcp
    - ufw reload
    ---
    **WARNING**
